@@ -87,4 +87,4 @@ function ejercicio8() {
     console.log("arrFinal: " + ejercicio2(arrFinal));
     console.log("Observamos que no se ha modificado, esto se debe a que al definir arrCopia hemos hecho un paso por valor con el spread operator(...)");
 
-}
+} 
