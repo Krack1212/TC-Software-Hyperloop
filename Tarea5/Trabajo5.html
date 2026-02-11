@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tareas</title>
+
+        <link rel="stylesheet" type="text/css" href="Trabajo5.css" />
+        
+    </head>
+
+    <body>
+
+        <div id="titulo"><h1><strong>Lista de tareas</strong></h1></div>
+
+        <div class="elflex">
+            <form class="losforms">
+                <label for="first-name">Nombre:</label>
+                <input type="text" name="first-name" class="losforms" id="nomtarea"/>
+            </form>
+
+            <form class="losforms">
+                <label for="elinput">Responsable: </label>
+                <select name="Responsable:" id="desplegable" class="losforms">
+                    <option value="Software">Software</option>
+                    <option value="Hardware">Hardware</option>
+                    <option value="Partners">Partners</option>
+                    <option value="Otros">Otros</option>
+                </select>
+                <input type="submit" value="Añadir" id="elinput" class="losforms" />
+            </form> 
+        </div>
+        
+        <h2>Tareas:</h2>
+
+        <ul id="listado"></ul>
+
+        <div id="logodiv">
+            <strong><p id="nombre">Ivan Martínez Enguix / TC Hyperloop Software</p></strong>
+            <img src="hyperlogo.png" alt="Hyperloop UPV logo" id="logo">
+        </div>
+
+        <script src="Trabajo5.js"></script>
+    </body>
+</html>

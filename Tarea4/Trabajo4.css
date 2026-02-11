@@ -1,4 +1,33 @@
 body{
     text-align: center;
     margin : 0 auto;
-} 
+    transition: background-color 0.6s, color 0.6s;
+    height: 100%;
+}
+#textaco{
+    font-size: 20px;
+}
+#titulo{
+    font-size: 35px;
+}
+#boton{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right:20px; 
+    padding-bottom: 10px;
+    padding-left:20px; 
+    text-align: center;
+    border-radius: 9px;
+    margin-top: 25px;
+    border-width: 1px;
+}
+#recuento{
+    margin-top: 30px;
+}
+.guardiacivil{background-color: #00550a;}
+
+.sangr{background-color: #380000;}
+
+.caball{background-color: #653b00;}
+
+.cuchill{background-color: #9a9a9a;}
