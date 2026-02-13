@@ -3,10 +3,7 @@ const subsistema = document.getElementById("desplegable");
 const lista = document.getElementById("listado");
 const tarea = document.getElementById("nomtarea");
 
-let cont = 1;
-
-function norefresh(){}
-
+//Recoge la información del campo escrito y desplegable y los enseña por pantalla en la lista de tareas
 btn.addEventListener("click",(event1)=>{
     event1.preventDefault();
     const li = document.createElement("li");
@@ -15,12 +12,10 @@ btn.addEventListener("click",(event1)=>{
     tarea.value = null
 });
 
-li.addEventListener("click",(event2)=>{
-    event2.preventDefault();
-    getElementById("listado");
-    li.remove;
-});
+//Detecta sobre que elemento de la lista estamos haciendo click y lo elimina
+lista.addEventListener("click", function(event2) {
 
-li.addEventListener("mouseover",()=>{
-    li.classList.add(rojo);
+    if (event2.target.tagName === "LI") {
+        event2.target.remove();
+    }
 });
