@@ -2,14 +2,11 @@
 h1{
     font-size: 150px;
     text-align: center;
-    color: white;  /* Fallback: assume this color ON TOP of image */
-    background: url('Shrek.png');
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);  /* Fallback: assume this color ON TOP of image */
 }
 /*Tareas*/
 h2{
-    font-size: 90px;
+    font-size: 80px;
     margin-left: 280px;
     margin-bottom: 40px;
 }
@@ -31,37 +28,34 @@ body{
 }
 /**/
 .losforms{
-    background-color: rgb(204, 100, 100);
-    margin: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
+    background-color: rgba(255, 255, 255, 0.50);
+    margin-top: 40px;
+    margin-right: 47px;
+    margin-bottom: 40px;
+    margin-left: 47px;
     padding-left: 25px;
-    padding-right: 25   px;
-    border-width: 1px;
+    padding-right: 29px;
+    border-width: 4px;
     border-color: black;
     border-style:solid;
-    border-radius: 9px ;
-    font-size: 90px;
-}
-.losforms{
-    font-size: 50px;
+    border-radius: 20px ;
+    font-size: 60px;
 }
 #listado{
     font-size: 80px;
     
-    background-image: linear-gradient(#CBDF90,#c2daff,#335fa0);
+    background-color: rgb(255, 255, 255, 0.50);
     padding-left: 120px;
     padding-bottom: 30px;
     padding-top: 30px;
     border-radius: 20px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 4px;
     margin-left: 280px;
     margin-right: 280px;
     margin-top: 0px;
     min-height: 100px;
 }
-
 #logo{
     max-height: 300px;
     max-width: 300px;
@@ -73,13 +67,14 @@ body{
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 60px;
-    
     font-family: sans-serif;
     margin-bottom: 0px;
-    vertical-align: bottom ;
-    
+    vertical-align: bottom ; 
 }
 #nombre{
     margin-bottom: 3%;
     font-size: 40px;
+}
+.rojo{
+    color: red;
 }
