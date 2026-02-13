@@ -5,6 +5,7 @@ const tarea = document.getElementById("nomtarea");
 
 //Recoge la información del campo escrito y desplegable y los enseña por pantalla en la lista de tareas
 btn.addEventListener("click",(event1)=>{
+
     event1.preventDefault();
     const li = document.createElement("li");
     li.textContent = tarea.value + " (" + subsistema.value + ")";
@@ -17,5 +18,13 @@ lista.addEventListener("click", function(event2) {
 
     if (event2.target.tagName === "LI") {
         event2.target.remove();
+    }
+});
+
+//Cuando se pasa por encima de una tarea 
+lista.addEventListener("mouseover", function(event3) {
+
+    if (event3.target.tagName === "LI") {
+        event3.target.classList.add("negrita");
     }
 });

@@ -1,32 +1,27 @@
-/*Solo letras titulo*/
 h1{
     font-size: 150px;
     text-align: center;
-    color: rgb(0, 0, 0);  /* Fallback: assume this color ON TOP of image */
+    color: rgb(0, 0, 0);
 }
-/*Tareas*/
 h2{
     font-size: 80px;
-    margin-left: 280px;
     margin-bottom: 40px;
+    margin-left: 280px;
 }
 body{
     background-image: linear-gradient(#1B4079,#5286d4,#c2daff, #CBDF90);
     background-attachment: fixed;
 }
-/*Title box*/
 #titulo{
 
     padding-left: 15px;
     color: white;
     font-family: sans-serif;
 }
-/*Alinea los dos forms*/
 .elflex{
     display: flex;
     justify-content: center;
 }
-/**/
 .losforms{
     background-color: rgba(255, 255, 255, 0.50);
     margin-top: 40px;
@@ -43,7 +38,6 @@ body{
 }
 #listado{
     font-size: 80px;
-    
     background-color: rgb(255, 255, 255, 0.50);
     padding-left: 120px;
     padding-bottom: 30px;
@@ -77,4 +71,9 @@ body{
 }
 .rojo{
     color: red;
+}
+.negrita:hover{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: rgb(135, 36, 36);
 }
